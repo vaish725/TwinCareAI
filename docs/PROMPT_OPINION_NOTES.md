@@ -35,12 +35,12 @@ Prompt Opinion is the hosting platform for A2A (Agent-to-Agent) healthcare workf
 
 ## Platform Requirements
 
-### Must Have ✅
-1. ✅ Integrate into Prompt Opinion
-2. ✅ Publish to Prompt Opinion Marketplace
-3. ✅ Be discoverable and invokable in the platform
-4. ✅ Function exactly as shown in demo video
-5. ✅ Use only synthetic or de-identified data
+### Must Have 
+1.  Integrate into Prompt Opinion
+2.  Publish to Prompt Opinion Marketplace
+3.  Be discoverable and invokable in the platform
+4.  Function exactly as shown in demo video
+5.  Use only synthetic or de-identified data
 
 ### Integration Checklist
 - [ ] Create Prompt Opinion account

@@ -406,10 +406,10 @@ CREATE TABLE scenarios (
 ## Security Architecture
 
 ### Data Security
-- ✅ Synthetic data only (ENFORCED)
-- ✅ No real PHI storage
-- ✅ FHIR tokens redacted in logs
-- ✅ Encrypted connections (TLS)
+-  Synthetic data only (ENFORCED)
+-  No real PHI storage
+-  FHIR tokens redacted in logs
+-  Encrypted connections (TLS)
 
 ### Authentication
 - API key for backend endpoints
@@ -514,13 +514,13 @@ Cloud Provider (AWS/GCP/Azure)
 
 ## Next Steps (Days 1-2)
 
-1. ✅ Project structure created
-2. ⏳ Initialize Git repository
-3. ⏳ Design detailed agent topology diagram
-4. ⏳ Define API contracts (OpenAPI spec)
-5. ⏳ Create FHIR synthetic patient data
-6. ⏳ Study Prompt Opinion documentation
-7. ⏳ Set up development environment
+1.  Project structure created
+2.  Initialize Git repository
+3.  Design detailed agent topology diagram
+4.  Define API contracts (OpenAPI spec)
+5.  Create FHIR synthetic patient data
+6.  Study Prompt Opinion documentation
+7.  Set up development environment
 
 ---
 

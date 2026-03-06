@@ -166,7 +166,7 @@ TwinCare AI uses a **multi-agent architecture** with 9 specialized agents orches
 
 ## Agent Specifications
 
-### 1. Context Intake Agent 📥
+### 1. Context Intake Agent 
 
 **Purpose:** Receive and validate incoming context from Prompt Opinion
 
@@ -197,7 +197,7 @@ TwinCare AI uses a **multi-agent architecture** with 9 specialized agents orches
 
 ---
 
-### 2. Clinical State Builder Agent 🏗️
+### 2. Clinical State Builder Agent 
 
 **Purpose:** Convert FHIR data into structured patient digital twin
 
@@ -232,7 +232,7 @@ TwinCare AI uses a **multi-agent architecture** with 9 specialized agents orches
 
 ---
 
-### 3. Scenario Generator Agent 🎯
+### 3. Scenario Generator Agent 
 
 **Purpose:** Create valid treatment scenarios for simulation
 
@@ -266,7 +266,7 @@ TwinCare AI uses a **multi-agent architecture** with 9 specialized agents orches
 
 ---
 
-### 4. Risk Projection Agent 📊
+### 4. Risk Projection Agent 
 
 **Purpose:** Calculate directional risk changes for each scenario
 
@@ -303,7 +303,7 @@ TwinCare AI uses a **multi-agent architecture** with 9 specialized agents orches
 
 ---
 
-### 5. Medication Impact Agent 💊
+### 5. Medication Impact Agent 
 
 **Purpose:** Assess medication burden and interactions
 
@@ -340,7 +340,7 @@ burden = (medication_count * 0.3) +
 
 ---
 
-### 6. Guideline Alignment Agent 📋
+### 6. Guideline Alignment Agent 
 
 **Purpose:** Validate scenarios against clinical guidelines
 
@@ -374,7 +374,7 @@ burden = (medication_count * 0.3) +
 
 ---
 
-### 7. Safety Guardrail Agent 🛡️
+### 7. Safety Guardrail Agent 
 
 **Purpose:** Enforce safety rules and prevent unsafe outputs
 
@@ -421,7 +421,7 @@ rules = [
 
 ---
 
-### 8. Explanation Agent 💬
+### 8. Explanation Agent 
 
 **Purpose:** Generate human-readable explanations
 
@@ -463,7 +463,7 @@ would be more certain with recent cholesterol labs."
 
 ---
 
-### 9. Consensus Agent 🤝
+### 9. Consensus Agent 
 
 **Purpose:** Aggregate results and resolve conflicts
 
@@ -654,13 +654,13 @@ async def orchestrate_parallel_agents(scenario):
 
 ## Next Steps
 
-1. ✅ Agent topology designed
-2. ⏳ Implement base Agent class
-3. ⏳ Create agent registry
-4. ⏳ Build orchestrator service
-5. ⏳ Develop individual agents
-6. ⏳ Add unit tests
-7. ⏳ Integration testing
+1.  Agent topology designed
+2.  Implement base Agent class
+3.  Create agent registry
+4.  Build orchestrator service
+5.  Develop individual agents
+6.  Add unit tests
+7.  Integration testing
 
 ---
 

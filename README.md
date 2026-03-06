@@ -6,14 +6,32 @@
 
 A multi-agent healthcare simulation system that creates a patient-specific digital twin from FHIR data, runs what-if treatment scenarios, and returns explainable outcome projections inside the Prompt Opinion platform.
 
-## 🎯 Project Overview
+## Project Overview
 
 **Hackathon:** Agents Assemble - Healthcare AI Endgame  
 **Submission Path:** A2A Agent on Prompt Opinion  
 **Focus Area:** Type 2 Diabetes + Cardiometabolic Risk  
-**Deadline:** May 11, 2026
+**Deadline:** May 11, 2026  
+**Repository:** https://github.com/vaish725/TwinCareAI
 
-## 🏗️ Architecture
+## Project Status
+
+**Current Phase:** Phase 1 - Foundation & Architecture  
+**Completed:** Day 1-2 (Mar 6-7, 2026)  
+**Next:** Days 3-5 - Data & FHIR Foundation
+
+### Completed Milestones
+- Git repository initialized and pushed to GitHub
+- Project structure created (backend, frontend, docs)
+- Development tools configured (Python, Node.js, CI/CD)
+- Complete architecture documentation
+- 9-agent topology designed and specified
+- Database schema finalized
+- Agent communication protocol defined
+- Error handling strategy documented
+- API contracts defined
+
+## Architecture
 
 ### Tech Stack
 
@@ -75,7 +93,7 @@ TwinCareAI/
 └── README.md              # This file
 ```
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -102,28 +120,17 @@ npm install
 npm run dev
 ```
 
-## 🔗 Key Links
+## Key Links
 
 - **PRD:** [prd.md](./prd.md)
 - **Timeline:** [PROJECT_TIMELINE.md](./PROJECT_TIMELINE.md)
+- **Architecture:** [docs/ARCHITECTURE.md](./docs/ARCHITECTURE.md)
+- **Agent Topology:** [docs/AGENT_TOPOLOGY.md](./docs/AGENT_TOPOLOGY.md)
 - **Prompt Opinion:** [https://promptopinion.com](https://promptopinion.com)
 - **SHARP on MCP:** [https://sharponmcp.com](https://sharponmcp.com)
 - **Hackathon:** [https://agents-assemble.devpost.com](https://agents-assemble.devpost.com)
 
-## 📋 Development Status
-
-**Current Phase:** Phase 1 - Foundation & Architecture  
-**Week:** 1 (Mar 6-12, 2026)  
-**Days:** 1-2 (Project Setup)
-
-### Today's Objectives (Mar 6-7)
-- [x] Initialize project structure
-- [ ] Set up Git repository
-- [ ] Configure development tools
-- [ ] Design agent topology
-- [ ] Study Prompt Opinion platform
-
-## 🧪 Testing
+## Testing
 
 ```bash
 # Backend tests
@@ -138,16 +145,16 @@ npm test
 npm run test:e2e
 ```
 
-## 📊 Success Metrics
+## Success Metrics
 
-- ✅ Integrated into Prompt Opinion
-- ✅ Published to Marketplace
-- ✅ End-to-end latency <15 seconds
-- ✅ All 9 agents functional
-- ✅ Demo video <3 minutes
-- ✅ Synthetic data only
+- Integrated into Prompt Opinion
+- Published to Marketplace
+- End-to-end latency under 15 seconds
+- All 9 agents functional
+- Demo video under 3 minutes
+- Synthetic data only
 
-## ⚠️ Safety & Compliance
+## Safety & Compliance
 
 **CRITICAL:** This system uses **SYNTHETIC DATA ONLY**. No real PHI is permitted.
 
@@ -157,7 +164,7 @@ npm run test:e2e
 - Missing data transparency
 - For simulation/decision support only
 
-## 👥 Team
+## Team
 
 - **Project Manager:** Timeline, coordination, demo
 - **Tech Lead:** Architecture, orchestration
@@ -165,11 +172,11 @@ npm run test:e2e
 - **Frontend Team:** React, UI/UX
 - **DevOps:** Deployment, CI/CD
 
-## 📄 License
+## License
 
 MIT License - See LICENSE file for details
 
-## 🤝 Contributing
+## Contributing
 
 This is a hackathon project. For questions or collaboration, please open an issue.
 

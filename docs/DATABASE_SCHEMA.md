@@ -575,10 +575,10 @@ ORDER BY step_number;
 ## Security Considerations
 
 ### Data Protection
-- ✅ No real PHI stored
-- ✅ FHIR tokens redacted in context field
-- ✅ Patient IDs are synthetic only
-- ✅ Audit logging for access
+-  No real PHI stored
+-  FHIR tokens redacted in context field
+-  Patient IDs are synthetic only
+-  Audit logging for access
 
 ### Access Control
 - Database user with minimal privileges
