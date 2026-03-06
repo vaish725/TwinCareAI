@@ -1,0 +1,51 @@
+# Core Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Async Support
+httpx==0.26.0
+aiofiles==23.2.1
+
+# FHIR
+fhir.resources==7.1.0
+fhirclient==4.1.0
+
+# Database
+sqlalchemy==2.0.25
+alembic==1.13.1
+aiosqlite==0.19.0
+
+# Validation & Serialization
+python-multipart==0.0.6
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# LLM & AI
+openai==1.10.0
+anthropic==0.8.1
+langchain==0.1.4
+langchain-openai==0.0.5
+
+# Utilities
+python-dotenv==1.0.0
+tenacity==8.2.3
+loguru==0.7.2
+
+# Testing
+pytest==7.4.4
+pytest-asyncio==0.23.3
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+httpx==0.26.0
+
+# Development
+black==24.1.1
+flake8==7.0.0
+mypy==1.8.0
+isort==5.13.2
+pre-commit==3.6.0
+
+# Monitoring (optional)
+prometheus-client==0.19.0
