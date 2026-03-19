@@ -1,0 +1,19 @@
+{
+  "sharp_version": "1.0",
+  "session_id": "mock-session-123",
+  "patient_context": {
+    "patient_id": "synthetic-001",
+    "patient_identifier_system": "http://twincare-ai.example.com",
+    "fhir_server_url": "https://mock-fhir.example.com/r4",
+    "fhir_access_token": "mock-bearer-token"
+  },
+  "requesting_agent": {
+    "agent_id": "mock-prompt-opinion",
+    "agent_name": "Mock Clinical Decision Coordinator"
+  },
+  "invocation_context": {
+    "timestamp": "2026-03-19T14:30:00Z",
+    "request_type": "mock_scenario_simulation",
+    "user_role": "developer"
+  }
+}

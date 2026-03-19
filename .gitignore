@@ -93,3 +93,7 @@ secrets/
 
 # CI/CD
 .github/workflows/*.log
+
+# Markdown files
+**.md
+!README.md

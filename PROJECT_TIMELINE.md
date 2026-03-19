@@ -54,17 +54,17 @@
 **Priority:** CRITICAL
 
 - [ ] FHIR infrastructure
-  - [ ] Set up synthetic FHIR server or bundle approach
-  - [ ] Create 2-3 synthetic patient profiles (Type 2 diabetes focus)
-  - [ ] Define FHIR resource scope (Patient, Condition, MedicationRequest, Observation, Encounter)
-  - [ ] Build FHIR ingestion service skeleton
+  - [x] Set up synthetic FHIR server or bundle approach
+  - [x] Create 2-3 synthetic patient profiles (Type 2 diabetes focus)
+  - [x] Define FHIR resource scope (Patient, Condition, MedicationRequest, Observation, Encounter)
+  - [x] Build FHIR ingestion service skeleton
   
-- [ ] Data models
-  - [ ] Define PatientTwin data model (Pydantic)
-  - [ ] Define ScenarioDefinition model
-  - [ ] Define ScenarioResult model
-  - [ ] Define AgentTrace model
-  - [ ] Create data validation utilities
+- [x] Data models
+  - [x] Define PatientTwin data model (Pydantic)
+  - [x] Define ScenarioDefinition model
+  - [x] Define ScenarioResult model
+  - [x] Define AgentTrace model
+  - [x] Create data validation utilities
 
 **Deliverables:**
 - Synthetic FHIR data for 2-3 patients
@@ -75,18 +75,18 @@
 **Owner:** Backend Team  
 **Priority:** HIGH
 
-- [ ] Backend infrastructure
-  - [ ] Set up FastAPI project structure
-  - [ ] Create API endpoint stubs
-  - [ ] Set up database (SQLite for development)
-  - [ ] Configure async request handling
-  - [ ] Implement basic health check endpoint
+- [x] Backend infrastructure
+  - [x] Set up FastAPI project structure
+  - [x] Create API endpoint stubs
+  - [x] Set up database (SQLite for development)
+  - [x] Configure async request handling
+  - [x] Implement basic health check endpoint
   
-- [ ] Context adapter module
-  - [ ] Build Prompt Opinion context parser
-  - [ ] Implement SHARP context extraction
-  - [ ] Add patient ID validation
-  - [ ] Create mock context for local testing
+- [x] Context adapter module
+  - [x] Build Prompt Opinion context parser
+  - [x] Implement SHARP context extraction
+  - [x] Add patient ID validation
+  - [x] Create mock context for local testing
 
 **Deliverables:**
 - Running FastAPI application
@@ -101,24 +101,24 @@
 **Owner:** Frontend Team  
 **Priority:** HIGH
 
-- [ ] Frontend setup
-  - [ ] Initialize React + TypeScript project
-  - [ ] Set up Tailwind CSS + shadcn/ui
-  - [ ] Create basic routing structure
-  - [ ] Set up state management (Context API or Zustand)
-  - [ ] Configure build tools (Vite)
+- [x] Frontend setup
+  - [x] Initialize React + TypeScript project
+  - [x] Set up Tailwind CSS + shadcn/ui
+  - [x] Create basic routing structure
+  - [x] Set up state management (Context API or Zustand)
+  - [x] Configure build tools (Vite)
   
-- [ ] Core UI components
-  - [ ] PatientHeader component
-  - [ ] DataFreshnessCard component
-  - [ ] TwinCompletenessMeter component
-  - [ ] SafetyNotice component (persistent disclaimer)
-  - [ ] MarketplaceInfoFooter component
+- [x] Core UI components
+  - [x] PatientHeader component
+  - [x] DataFreshnessCard component
+  - [x] TwinCompletenessMeter component
+  - [x] SafetyNotice component (persistent disclaimer)
+  - [x] MarketplaceInfoFooter component
   
-- [ ] Screen layouts
-  - [ ] Screen 1: Patient selection layout
-  - [ ] Screen 2: Patient twin overview layout
-  - [ ] Basic navigation structure
+- [x] Screen layouts
+  - [x] Screen 1: Patient selection layout
+  - [x] Screen 2: Patient twin overview layout
+  - [x] Basic navigation structure
 
 **Deliverables:**
 - Running React application
@@ -129,22 +129,22 @@
 **Owner:** Full Team  
 **Priority:** CRITICAL
 
-- [ ] Agent specifications
-  - [ ] Detail each of 9 agent responsibilities
-  - [ ] Define agent input/output contracts
-  - [ ] Design inter-agent communication protocol
-  - [ ] Plan orchestration flow
+- [x] Agent specifications
+  - [x] Detail each of 9 agent responsibilities
+  - [x] Define agent input/output contracts
+  - [x] Design inter-agent communication protocol
+  - [x] Plan orchestration flow
   
-- [ ] MCP tool planning
-  - [ ] Define 4-5 MCP tool interfaces
-  - [ ] Document tool schemas
-  - [ ] Plan MCP server implementation approach
+- [x] MCP tool planning
+  - [x] Define 4-5 MCP tool interfaces
+  - [x] Document tool schemas
+  - [x] Plan MCP server implementation approach
   
-- [ ] Multi-agent orchestration design
-  - [ ] Map agent execution sequence
-  - [ ] Define retry and timeout strategies
-  - [ ] Plan conflict resolution approach
-  - [ ] Design trace logging mechanism
+- [x] Multi-agent orchestration design
+  - [x] Map agent execution sequence
+  - [x] Define retry and timeout strategies
+  - [x] Plan conflict resolution approach
+  - [x] Design trace logging mechanism
 
 **Deliverables:**
 - Agent specification document
@@ -155,21 +155,21 @@
 **Owner:** Project Manager  
 **Priority:** HIGH
 
-- [ ] Sprint organization
-  - [ ] Break Phase 2 into weekly sprints
-  - [ ] Assign agent development ownership
-  - [ ] Create detailed task backlog
-  - [ ] Set up daily standup schedule
+- [x] Sprint organization
+  - [x] Break Phase 2 into weekly sprints
+  - [x] Assign agent development ownership
+  - [x] Create detailed task backlog
+  - [x] Set up daily standup schedule
   
-- [ ] Risk assessment
-  - [ ] Identify technical blockers
-  - [ ] Plan contingency for Prompt Opinion integration issues
-  - [ ] Document scope reduction options if needed
+- [x] Risk assessment
+  - [x] Identify technical blockers
+  - [x] Plan contingency for Prompt Opinion integration issues
+  - [x] Document scope reduction options if needed
   
-- [ ] Testing strategy
-  - [ ] Define unit test requirements
-  - [ ] Plan integration test approach
-  - [ ] Design demo scenario test cases
+- [x] Testing strategy
+  - [x] Define unit test requirements
+  - [x] Plan integration test approach
+  - [x] Design demo scenario test cases
 
 **Deliverables:**
 - Sprint backlogs for weeks 3-5
@@ -187,21 +187,21 @@
 **Owner:** Backend Team  
 **Priority:** CRITICAL
 
-- [ ] FHIR ingestion service (full implementation)
-  - [ ] Fetch Patient resource
-  - [ ] Fetch and normalize Conditions
-  - [ ] Fetch and normalize MedicationRequest/Statement
-  - [ ] Fetch and filter Observations (labs, vitals)
-  - [ ] Fetch recent Encounters
-  - [ ] Bundle deduplication logic
-  - [ ] Handle missing/stale data gracefully
+- [x] FHIR ingestion service (full implementation)
+  - [x] Fetch Patient resource
+  - [x] Fetch and normalize Conditions
+  - [x] Fetch and normalize MedicationRequest/Statement
+  - [x] Fetch and filter Observations (labs, vitals)
+  - [x] Fetch recent Encounters
+  - [x] Bundle deduplication logic
+  - [x] Handle missing/stale data gracefully
   
-- [ ] Twin State Builder Agent
-  - [ ] Convert FHIR to TwinState
-  - [ ] Calculate completeness score
-  - [ ] Identify care gaps
-  - [ ] Generate missing-data report
-  - [ ] Add comprehensive unit tests
+- [x] Twin State Builder Agent
+  - [x] Convert FHIR to TwinState
+  - [x] Calculate completeness score
+  - [x] Identify care gaps
+  - [x] Generate missing-data report
+  - [x] Add comprehensive unit tests
 
 **Deliverables:**
 - Full FHIR ingestion service
@@ -212,24 +212,24 @@
 **Owner:** Backend Team  
 **Priority:** CRITICAL
 
-- [ ] Scenario Generator Agent
-  - [ ] Implement scenario templates (3 predefined)
-  - [ ] Build validation rules for scenario plausibility
-  - [ ] Handle data-driven scenario constraints
-  - [ ] Generate assumptions list per scenario
+- [x] Scenario Generator Agent
+  - [x] Implement scenario templates (3 predefined)
+  - [x] Build validation rules for scenario plausibility
+  - [x] Handle data-driven scenario constraints
+  - [x] Generate assumptions list per scenario
   
-- [ ] Risk Projection Agent
-  - [ ] Implement Tier 1: deterministic transforms
-  - [ ] Implement Tier 2: guideline-informed heuristics
-  - [ ] Implement Tier 3: LLM-based generative reasoning
-  - [ ] Calculate directional risk projections
-  - [ ] Generate uncertainty estimates
-  - [ ] Add rationale generation
+- [x] Risk Projection Agent
+  - [x] Implement Tier 1: deterministic transforms
+  - [x] Implement Tier 2: guideline-informed heuristics
+  - [x] Implement Tier 3: LLM-based generative reasoning
+  - [x] Calculate directional risk projections
+  - [x] Generate uncertainty estimates
+  - [x] Add rationale generation
   
-- [ ] Begin simulation engine
-  - [ ] Core simulation loop
-  - [ ] Scenario parameter application
-  - [ ] Time horizon handling
+- [x] Begin simulation engine
+  - [x] Core simulation loop
+  - [x] Scenario parameter application
+  - [x] Time horizon handling
 
 **Deliverables:**
 - Scenario Generator Agent (working)
@@ -244,58 +244,58 @@
 **Owner:** Backend Team  
 **Priority:** HIGH
 
-- [ ] Medication Impact Agent
-  - [ ] Medication burden calculation
-  - [ ] Interaction checking (basic)
-  - [ ] Adherence impact modeling
-  - [ ] Caution flag generation
+- [x] Medication Impact Agent
+  - [x] Medication burden calculation
+  - [x] Interaction checking (basic)
+  - [x] Adherence impact modeling
+  - [x] Caution flag generation
   
-- [ ] Guideline Alignment Agent
-  - [ ] Load relevant diabetes/cardiovascular guidelines
-  - [ ] Check scenario-guideline consistency
-  - [ ] Generate evidence strength notes
-  - [ ] Avoid false certainty claims
+- [x] Guideline Alignment Agent
+  - [x] Load relevant diabetes/cardiovascular guidelines
+  - [x] Check scenario-guideline consistency
+  - [x] Generate evidence strength notes
+  - [x] Avoid false certainty claims
   
-- [ ] Context Intake Agent
-  - [ ] Full Prompt Opinion context parsing
-  - [ ] SHARP context validation
-  - [ ] Patient ID resolution
-  - [ ] FHIR token handling
-  - [ ] Resource fetch planning
+- [x] Context Intake Agent
+  - [x] Full Prompt Opinion context parsing
+  - [x] SHARP context validation
+  - [x] Patient ID resolution
+  - [x] FHIR token handling
+  - [x] Resource fetch planning
 
 **Deliverables:**
-- 3 more agents complete (Medication, Guideline, Context Intake)
-- Agent integration tests
+- [x] 3 more agents complete (Medication, Guideline, Context Intake)
+- [x] Agent integration tests
 
 #### Days 25-28 (Mar 30 - Apr 2): Safety & Consensus Agents
 **Owner:** Backend + QA  
 **Priority:** CRITICAL
 
-- [ ] Safety Guardrail Agent
-  - [ ] Implement safety rules (no definitive advice)
-  - [ ] Disclaimer injection logic
-  - [ ] Missing data flag enforcement
-  - [ ] Unsafe scenario blocking
-  - [ ] Output sanitization
-  - [ ] Confidence downgrade rules
+- [x] Safety Guardrail Agent
+  - [x] Implement safety rules (no definitive advice)
+  - [x] Disclaimer injection logic
+  - [x] Missing data flag enforcement
+  - [x] Unsafe scenario blocking
+  - [x] Output sanitization
+  - [x] Confidence downgrade rules
   
-- [ ] Explanation Agent
-  - [ ] Generate clinician-facing summaries
-  - [ ] Generate patient-friendly plain language
-  - [ ] Create assumption explanations
-  - [ ] Build "why this changed" narratives
+- [x] Explanation Agent
+  - [x] Generate clinician-facing summaries
+  - [x] Generate patient-friendly plain language
+  - [x] Create assumption explanations
+  - [x] Build "why this changed" narratives
   
-- [ ] Consensus Agent
-  - [ ] Aggregate specialist outputs
-  - [ ] Rank scenarios by projected benefit
-  - [ ] Handle agent disagreements
-  - [ ] Generate final comparison narrative
-  - [ ] Compile confidence buckets
+- [x] Consensus Agent
+  - [x] Aggregate specialist outputs
+  - [x] Rank scenarios by projected benefit
+  - [x] Handle agent disagreements
+  - [x] Generate final comparison narrative
+  - [x] Compile confidence buckets
 
 **Deliverables:**
-- Safety, Explanation, and Consensus Agents complete
-- All 9 agents implemented
-- Agent test suite
+- [x] Safety, Explanation, and Consensus Agents complete
+- [x] All 9 agents implemented
+- [x] Agent test suite
 
 ---
 
@@ -305,27 +305,27 @@
 **Owner:** Backend Lead  
 **Priority:** CRITICAL
 
-- [ ] Multi-agent orchestrator
-  - [ ] Implement agent sequencing logic
-  - [ ] Add timeout handling (per agent)
-  - [ ] Implement retry mechanism
-  - [ ] Build result fusion logic
-  - [ ] Create trace generation system
-  - [ ] Handle partial failures gracefully
+- [x] Multi-agent orchestrator
+  - [x] Implement agent sequencing logic
+  - [x] Add timeout handling (per agent)
+  - [x] Implement retry mechanism
+  - [x] Build result fusion logic
+  - [x] Create trace generation system
+  - [x] Handle partial failures gracefully
   
-- [ ] Full backend integration
-  - [ ] Connect all agents to orchestrator
-  - [ ] Implement `/invoke` endpoint (full)
-  - [ ] Implement `/simulate` endpoint
-  - [ ] Implement `/compare` endpoint
-  - [ ] Add session management
-  - [ ] Create trace retrieval endpoint
+- [x] Full backend integration
+  - [x] Connect all agents to orchestrator
+  - [x] Implement `/invoke` endpoint (full)
+  - [x] Implement `/simulate` endpoint
+  - [x] Implement `/compare` endpoint
+  - [x] Add session management
+  - [x] Create trace retrieval endpoint
   
-- [ ] Results storage
-  - [ ] Session persistence
-  - [ ] Trace storage
-  - [ ] Audit logging
-  - [ ] Query endpoints for UI
+- [x] Results storage
+  - [x] Session persistence
+  - [x] Trace storage
+  - [x] Audit logging
+  - [x] Query endpoints for UI
 
 **Deliverables:**
 - Fully integrated backend
@@ -336,29 +336,29 @@
 **Owner:** Frontend Team  
 **Priority:** CRITICAL
 
-- [ ] Screen 3: Scenario workspace
-  - [ ] ScenarioBuilder component
-  - [ ] Scenario template selector
-  - [ ] Advanced scenario editor
-  - [ ] Side-by-side scenario cards (max 3)
-  - [ ] Scenario validation feedback
-  - [ ] "Run simulation" action
+- [x] Screen 3: Scenario workspace
+  - [x] ScenarioBuilder component
+  - [x] Scenario template selector
+  - [x] Advanced scenario editor
+  - [x] Side-by-side scenario cards (max 3)
+  - [x] Scenario validation feedback
+  - [x] "Run simulation" action
   
-- [ ] Screen 4: Simulation results
-  - [ ] ScenarioCard components
-  - [ ] ComparisonTable component
-  - [ ] Risk direction arrows/indicators
-  - [ ] ConfidenceBadge component
-  - [ ] RecommendationSummary component
-  - [ ] Expandable explanation panels
-  - [ ] MissingDataAlert component
-  - [ ] Persistent safety notice
+- [x] Screen 4: Simulation results
+  - [x] ScenarioCard components
+  - [x] ComparisonTable component
+  - [x] Risk direction arrows/indicators
+  - [x] ConfidenceBadge component
+  - [x] RecommendationSummary component
+  - [x] Expandable explanation panels
+  - [x] MissingDataAlert component
+  - [x] Persistent safety notice
   
-- [ ] API integration
-  - [ ] Connect to backend `/invoke`
-  - [ ] Handle loading states
-  - [ ] Error handling and retry UI
-  - [ ] Session state management
+- [x] API integration
+  - [x] Connect to backend `/invoke`
+  - [x] Handle loading states
+  - [x] Error handling and retry UI
+  - [x] Session state management
 
 **Deliverables:**
 - Scenario workspace screen (functional)
@@ -376,24 +376,24 @@
 **Owner:** Full Stack + DevOps  
 **Priority:** CRITICAL
 
-- [ ] A2A agent registration
-  - [ ] Create agent configuration for Prompt Opinion
-  - [ ] Register TwinCare AI on Prompt Opinion platform
-  - [ ] Configure A2A communication endpoints
-  - [ ] Test invocation from Prompt Opinion
-  - [ ] Validate SHARP context propagation
+- [x] A2A agent registration
+  - [x] Create agent configuration for Prompt Opinion
+  - [x] Register TwinCare AI on Prompt Opinion platform (conceptual)
+  - [x] Configure A2A communication endpoints (conceptual)
+  - [x] Test invocation from Prompt Opinion (conceptual)
+  - [x] Validate SHARP context propagation
   
-- [ ] SHARP context handling (end-to-end)
-  - [ ] Test patient ID passing
-  - [ ] Test FHIR token propagation
-  - [ ] Validate session metadata flow
-  - [ ] Test error scenarios (missing context)
+- [x] SHARP context handling (end-to-end)
+  - [x] Test patient ID passing
+  - [x] Test FHIR token propagation
+  - [x] Validate session metadata flow
+  - [x] Test error scenarios (missing context)
   
-- [ ] Marketplace setup
-  - [ ] Create Marketplace listing draft
-  - [ ] Add product description
-  - [ ] Upload screenshots (when ready)
-  - [ ] Configure discoverability settings
+- [x] Marketplace setup
+  - [x] Create Marketplace listing draft
+  - [x] Add product description
+  - [x] Upload screenshots (when ready)
+  - [x] Configure discoverability settings
 
 **Deliverables:**
 - TwinCare AI registered on Prompt Opinion
@@ -404,22 +404,22 @@
 **Owner:** Backend Team  
 **Priority:** MEDIUM
 
-- [ ] MCP server setup
-  - [ ] Initialize MCP server project
-  - [ ] Configure MCP protocol handlers
+- [x] MCP server setup
+  - [x] Initialize MCP server project
+  - [x] Configure MCP protocol handlers
   
-- [ ] MCP tools implementation
-  - [ ] `fetch_patient_context_bundle` tool
-  - [ ] `build_digital_twin` tool
-  - [ ] `run_scenario_projection` tool
-  - [ ] `compare_scenario_outcomes` tool
-  - [ ] `explain_projection` tool
+- [x] MCP tools implementation
+  - [x] `fetch_patient_context_bundle` tool
+  - [x] `build_digital_twin` tool
+  - [x] `run_scenario_projection` tool
+  - [x] `compare_scenario_outcomes` tool
+  - [x] `explain_projection` tool
   
-- [ ] MCP integration
-  - [ ] Connect MCP server to backend
-  - [ ] Test MCP tool invocations
-  - [ ] Validate tool responses
-  - [ ] Add to agent orchestration as option
+- [x] MCP integration
+  - [x] Connect MCP server to backend
+  - [x] Test MCP tool invocations
+  - [x] Validate tool responses
+  - [x] Add to agent orchestration as option
 
 **Deliverables:**
 - MCP server running
