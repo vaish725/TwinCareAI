@@ -692,7 +692,10 @@
   - [ ] Add Prompt Opinion Marketplace URL
   - [ ] Add demo video URL
   - [ ] Add GitHub repository URL (if public)
-  - [ ] Upload additional images/screenshots
+695→  - [ ] Upload additional images/screenshots
+
+#### Deployment Fixes
+- [x] Configure pytest and coverage to correctly discover tests and collect coverage data.
   - [ ] List technologies used
   - [ ] Describe challenges and accomplishments
   - [ ] Add team members

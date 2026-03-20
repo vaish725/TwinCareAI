@@ -1,0 +1,14 @@
+[tool.pytest.ini_options]
+pythonpath = "src"
+testpaths = ["../tests"]
+
+[tool.coverage.run]
+source = ["src/twincare_ai"]
+omit = ["*/site-packages/*", "src/twincare_ai/main.py", "src/twincare_ai/api/main.py"]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "if TYPE_CHECKING:",
+    "raise NotImplementedError",
+]
